@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  height: 100vh;
+  background: #051020;
+  color: white;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.list {
+  width: 100px;
+  height: 200px;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.actions {
+  padding: 30px;
+  gap: 30px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  font-size: large;
+}
+button:active {
+  scale: 0.9;
+}
+
+.checker {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
